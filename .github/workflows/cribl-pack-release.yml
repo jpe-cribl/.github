@@ -32,7 +32,7 @@ jobs:
   release:
     name: Build .crbl and attach it to the release
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: ${{ github.event_name == 'pull_request' && 15 || 15 }} # pr-policy: timeout-exception Cribl service container startup and test matrix
     env:
       ADDITIONAL_FILES: ${{ inputs.additional_files }}
       REPO_NAME: ${{ github.event.repository.name }}

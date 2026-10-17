@@ -44,7 +44,7 @@ jobs:
   validate:
     name: Validate pack structure
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: ${{ github.event_name == 'pull_request' && 10 || 10 }} # pr-policy: timeout-exception Cribl service container startup and test matrix
     env:
       PACK_TYPE: ${{ inputs.pack_type }}
     steps:
@@ -80,7 +80,7 @@ jobs:
     # is visible regardless of sibling outcomes.
     name: Test pack pipelines (Cribl ${{ matrix.cribl.version }})
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: ${{ github.event_name == 'pull_request' && 25 || 30 }} # pr-policy: timeout-exception Cribl service container startup and test matrix
     needs: validate
     strategy:
       fail-fast: false
