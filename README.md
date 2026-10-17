@@ -7,6 +7,7 @@ Organization profile
 ### Test
 
 `cribl-pack-test.yml` validates pack structure and runs the Cribl pipeline test matrix.
+Both jobs check the shared `scripts/` out to `.gh-shared` in the caller workspace.
 
 - `pack_type`: required; `edge` or `stream`.
 - `cribl_versions`: JSON version matrix; defaults to `latest` (required), `4.17.1` (optional), and `4.16.1` (optional).
