@@ -1,0 +1,20 @@
+# jpe-cribl
+
+Repository index for the jpe-cribl GitHub organization.
+
+## Repositories
+
+- [.github](https://github.com/jpe-cribl/.github): Organization profile
+- [cc-edge-ai-transcript-shared-io](https://github.com/jpe-cribl/cc-edge-ai-transcript-shared-io): Cribl Edge pack: shared AI CLI log breaker and masking pipeline
+- [cc-edge-macos-diagnostic-reports-io](https://github.com/jpe-cribl/cc-edge-macos-diagnostic-reports-io): Cribl Edge pack: macOS crash, hang and diagnostic reports
+- [cc-edge-macos-firewall-io](https://github.com/jpe-cribl/cc-edge-macos-firewall-io): Cribl Edge pack: macOS firewall logs
+- [cc-edge-macos-power-thermal-io](https://github.com/jpe-cribl/cc-edge-macos-power-thermal-io): Cribl Edge pack: macOS power, wired memory and thermal metrics
+- [cc-edge-macos-process-telemetry-io](https://github.com/jpe-cribl/cc-edge-macos-process-telemetry-io): Cribl Edge pack: macOS process lifecycle and per-process telemetry
+- [cc-edge-macos-unified-logs-io](https://github.com/jpe-cribl/cc-edge-macos-unified-logs-io): Cribl Edge pack: macOS unified log processing
+- [cc-edge-macos-ws-monitor-io](https://github.com/jpe-cribl/cc-edge-macos-ws-monitor-io): Cribl Edge pack: macOS window-server stall monitor samples and captures
+- [cc-edge-mlx-serving-io](https://github.com/jpe-cribl/cc-edge-mlx-serving-io): Cribl Edge pack: local MLX model serving logs and metrics
+- [cc-stream-apple-mlx-metrics](https://github.com/jpe-cribl/cc-stream-apple-mlx-metrics): Cribl Stream pack: Apple MLX host metrics
+- [cc-stream-cribl-edge-host-metrics](https://github.com/jpe-cribl/cc-stream-cribl-edge-host-metrics): Cribl Stream pack: Cribl Edge host metrics
+- [cc-stream-cribl-internal-telemetry](https://github.com/jpe-cribl/cc-stream-cribl-internal-telemetry): Cribl Stream pack: Cribl internal telemetry
+- [cc-stream-macos-fanout-io](https://github.com/jpe-cribl/cc-stream-macos-fanout-io): 
+- [cc-stream-pack-template](https://github.com/jpe-cribl/cc-stream-pack-template): Template for Cribl Stream packs with real-container e2e testing
