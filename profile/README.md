@@ -38,6 +38,9 @@ Cribl Notes (the short version) live at
 - [.github](https://github.com/jpe-cribl/.github): Organization profile
 - [cc-edge-ai-transcript-shared-io](https://github.com/jpe-cribl/cc-edge-ai-transcript-shared-io): Cribl Edge pack: shared AI CLI log breaker and masking
   pipeline (topics: ai, cribl, cribl-edge, cribl-pack)
+- [cc-edge-claude-code-io](https://github.com/jpe-cribl/cc-edge-claude-code-io): Collects Claude Code telemetry from OpenTelemetry and/or session log sources
+  via Cribl Edge, then forwards it to a Cribl Stream worker group for indexing, analysis, and search.
+- [cc-edge-codex-io](https://github.com/jpe-cribl/cc-edge-codex-io): Cribl Edge pack: OpenAI Codex CLI session transcript ingestion
 - [cc-edge-macos-diagnostic-reports-io](https://github.com/jpe-cribl/cc-edge-macos-diagnostic-reports-io): Cribl Edge pack: macOS crash, hang and diagnostic
   reports (topics: cribl, cribl-edge, cribl-pack, macos)
 - [cc-edge-macos-firewall-io](https://github.com/jpe-cribl/cc-edge-macos-firewall-io): Cribl Edge pack: macOS firewall logs (topics: cribl, cribl-edge,
@@ -52,6 +55,8 @@ Cribl Notes (the short version) live at
   captures (topics: cribl, cribl-edge, cribl-pack, macos)
 - [cc-edge-mlx-serving-io](https://github.com/jpe-cribl/cc-edge-mlx-serving-io): Cribl Edge pack: local MLX model serving logs and metrics (topics: cribl,
   cribl-edge, cribl-pack, mlx)
+- [cc-edge-pack-template](https://github.com/jpe-cribl/cc-edge-pack-template): Template repo for dryvist Cribl packs - reusable test/release workflows and
+  scaffolding
 - [cc-stream-apple-mlx-metrics](https://github.com/jpe-cribl/cc-stream-apple-mlx-metrics): Cribl Stream pack: Apple MLX host metrics (topics: cribl,
   cribl-pack)
 - [cc-stream-cribl-edge-host-metrics](https://github.com/jpe-cribl/cc-stream-cribl-edge-host-metrics): Cribl Stream pack: Cribl Edge host metrics (topics:
@@ -59,9 +64,16 @@ Cribl Notes (the short version) live at
 - [cc-stream-cribl-internal-telemetry](https://github.com/jpe-cribl/cc-stream-cribl-internal-telemetry): Cribl Stream pack: Cribl internal telemetry (topics:
   cribl, cribl-pack)
 - [cc-stream-macos-fanout-io](https://github.com/jpe-cribl/cc-stream-macos-fanout-io): —
+- [cc-stream-openrouter-rest-io](https://github.com/jpe-cribl/cc-stream-openrouter-rest-io): —
 - [cc-stream-pack-template](https://github.com/jpe-cribl/cc-stream-pack-template): Template for Cribl Stream packs with real-container e2e testing
+- [cc-stream-secret-redaction-io](https://github.com/jpe-cribl/cc-stream-secret-redaction-io): Cribl Stream pack that masks credential patterns out of events,
+  attached as a destination post-processing pipeline (topics: cribl, cribl-pack, cribl-stream, data-masking, log-management, observability, redaction,
+  security)
 
-## Archived repositories (0)
+## Archived repositories (1)
 
-_No archived repositories._
+### Other (archived)
+
+- [cc-edge-the-mac-pack-io](https://github.com/jpe-cribl/cc-edge-the-mac-pack-io): Cribl Edge Pack for macOS system health monitoring and anomaly detection —
+  the TA-nix equivalent for macOS via Cribl Edge
 <!-- org-index:end -->
