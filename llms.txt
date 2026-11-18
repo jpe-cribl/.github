@@ -4,6 +4,7 @@ Repository index for the jpe-cribl GitHub organization.
 
 ## Repositories
 
+- [.agents](https://github.com/jpe-cribl/.agents): Organization-wide agent skills
 - [.github](https://github.com/jpe-cribl/.github): Organization profile
 - [cc-edge-ai-transcript-shared-io](https://github.com/jpe-cribl/cc-edge-ai-transcript-shared-io): Cribl Edge pack: shared AI CLI log breaker and masking pipeline
 - [cc-edge-claude-code-io](https://github.com/jpe-cribl/cc-edge-claude-code-io): Collects Claude Code telemetry from OpenTelemetry and/or session log sources via Cribl Edge, then forwards it to a Cribl Stream worker group for indexing, analysis, and search.

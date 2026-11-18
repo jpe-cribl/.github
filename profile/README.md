@@ -35,6 +35,7 @@ Cribl Notes (the short version) live at
 
 ### Other
 
+- [.agents](https://github.com/jpe-cribl/.agents): Organization-wide agent skills
 - [.github](https://github.com/jpe-cribl/.github): Organization profile
 - [cc-edge-ai-transcript-shared-io](https://github.com/jpe-cribl/cc-edge-ai-transcript-shared-io): Cribl Edge pack: shared AI CLI log breaker and masking
   pipeline (topics: ai, cribl, cribl-edge, cribl-pack)
