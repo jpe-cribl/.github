@@ -6,15 +6,7 @@
       "release-type": "simple",
       "version-file": "VERSION",
       "include-component-in-tag": false,
-      "exclude-paths": ["profile"],
-      "changelog-sections": [
-        {"type": "feat", "section": "Features"},
-        {"type": "feature", "section": "Features"},
-        {"type": "fix", "section": "Bug Fixes"},
-        {"type": "perf", "section": "Performance Improvements"},
-        {"type": "revert", "section": "Reverts"},
-        {"type": "chore", "scope": "deps", "section": "Dependencies"}
-      ]
+      "exclude-paths": ["profile"]
     }
   }
 }
