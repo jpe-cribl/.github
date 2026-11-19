@@ -1,0 +1,19 @@
+name: Inherited CI
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  shared-gate:
+    permissions:
+      contents: read
+      pull-requests: read
+      # The shared gate's queue watchdog cancels stuck sibling jobs.
+      actions: write
+    uses: JacobPEvans/.github/.github/workflows/_ci-gate.yml@v1
+    with:
+      profile: docs
